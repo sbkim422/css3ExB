@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-touch-fullscreen" content="YES" />
+  <meta http-equiv="X-Frame-Options" content="deny">
+  <script src='view/javascripts/jquery-2.1.3.min.js'></script>
+  <script src='view/javascripts/javascripts/jquery.mobile-1.4.5.min.js'></script>
+  <script>
+  	function chapterM(page){
+  		if(page == 30201){
+  			location.href="views/302/sample01/index.html"
+  		}else if(page == 30202){
+  			location.href="views/302/sample02/index.html"
+  		}else{
+	  	  location.href="views/"+page+"/index.html"
+  		}
+  	}
+  </script>
+</head>
+<body>
+  <div>
+  	<p onclick="chapterM(207);"><strong>CHAPTER2 - 07  (128 PAGE)</strong><br>
+  	&nbsp;-아이폰 UI 회원가입 DOM
+  	</p>
+  	
+  	<p onclick="chapterM(208);"><strong>CHAPTER2 - 08  (136 PAGE)</strong><br>
+  	&nbsp;-메인페이지를 기점으로 이동하는 구조
+  	</p>
+  	
+  	<p onclick="chapterM(301);"><strong>CHAPTER3 - 01  (152 PAGE)</strong><br>
+  	&nbsp;-여러장의 이미지를 앨범형태로 뿌려주고 그 중 이미지를 클릭하면 확대
+  	</p>
+  	
+  	<p onclick="chapterM(30201);"><strong>CHAPTER3 - 02 -01 (158 PAGE)</strong><br>
+  	&nbsp;-포스트잇 느낌?
+  	</p>
+  	
+  	<p onclick="chapterM(30202);"><strong>CHAPTER3 - 02 -02 (158 PAGE)</strong><br>
+  	&nbsp;-채팅 형태의 이미지를 뿌려주는 구조
+  	</p>
+  	
+  </div>
+</body>
+</html>
